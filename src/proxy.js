@@ -80,7 +80,7 @@ function buildServer(options = {}) {
       enable: true,
       webPort: 8002,
     },
-    forceProxyHttps: false,
+    forceProxyHttps: true,
     wsIntercept: true, // disable websocket proxying
     silent: false,
   };
